@@ -1,0 +1,15 @@
+.task-item {
+    background-color: var(--bg-subcard);
+    padding: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    border-left: 5px solid #38bdf8;
+}
+.task-item.completed { opacity: 0.5; border-left-color: #10b981; }
+.task-info .task-name { font-weight: 600; font-size: 16px; display: block; }
+.task-info .task-cat { font-size: 13px; color: var(--text-sub); }
+.task-controls { display: flex; align-items: center; gap: 12px; }
